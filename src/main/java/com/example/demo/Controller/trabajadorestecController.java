@@ -15,14 +15,14 @@ public class trabajadorestecController {
 
     @Autowired
     private trabajadorestecRepository traRepo;
-
+    //Obtener
     @GetMapping("/obtener")
     public List<trabajadorestecBean> obtenerTienda(){
         List<trabajadorestecBean> listaTienda = new ArrayList<>();
         listaTienda = (List<trabajadorestecBean>) traRepo.findAll();
         return listaTienda;
     }
-
+    //Insertar
     @PostMapping("/insertar")
     public void insertarTienda(@RequestBody trabajadorestecBean TieBean){
 
