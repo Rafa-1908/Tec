@@ -3,6 +3,7 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//Aqui estamos creando la clase publica DemoApplication
 @SpringBootApplication
 public class DemoApplication {
 
