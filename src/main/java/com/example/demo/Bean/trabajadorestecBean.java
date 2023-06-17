@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "trabajadortec")
 public class trabajadorestecBean {
-
+// Se creo los private para hacer los llamado y el guardado de los datos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idtienda;
