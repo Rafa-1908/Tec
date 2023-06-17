@@ -15,11 +15,11 @@ public class trabajadorestecBean {
     private String apellidopaterno;
     private Integer edad;
     private Boolean estado;
-// Con el Get hacemos la invocacion a los id
+    // Con el Get hacemos la invocacion a los id
     public Integer getIdtienda() {
         return idtienda;
     }
-// Con el Set para colocar nuevos valores
+    // Con el Set para colocar nuevos valores
     public void setIdtienda(Integer idtienda) {
         this.idtienda = idtienda;
     }
@@ -71,4 +71,3 @@ public class trabajadorestecBean {
     public void setEstado(Boolean estado) {
         this.estado = estado;
     }
-}
