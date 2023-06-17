@@ -28,17 +28,17 @@ public class trabajadorestecController {
 
         traRepo.save(TieBean);
     }
-
+// Modificar
     @PutMapping("/modificar")
     public void modificarTrabajador(@RequestBody trabajadorestecBean TieBean) {
         traRepo.save(TieBean);
     }
-
+// Eliminar
     @DeleteMapping("/eliminar")
     public void eliminar(@RequestBody trabajadorestecBean TieBean){
         traRepo.deleteById(TieBean.getIdtienda());
     }
-
+// Eliminar Id
     @DeleteMapping("/eliminar/{idtienda}")
     public void eliminar(@PathVariable ("idtienda") Integer idtienda){
         traRepo.deleteById(idtienda);
