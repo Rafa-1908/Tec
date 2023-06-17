@@ -35,7 +35,7 @@ public class trabajadorestecBean {
     public String getNombtrabajador() {
         return nombtrabajador;
     }
-
+// Aqui se esat creando el llamado
     public void setNombtrabajador(String nombtrabajador) {
         this.nombtrabajador = nombtrabajador;
     }
